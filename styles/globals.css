@@ -1,0 +1,77 @@
+:root {
+  --primary: #ffffff;
+  --primary-2: #f1f3f5;
+  --secondary: #000000;
+  --secondary-2: #111;
+  --selection: var(--cyan);
+  --text-base: #000000;
+  --text-primary: #000000;
+  --text-secondary: white;
+  --hover: rgba(0, 0, 0, 0.075);
+  --hover-1: rgba(0, 0, 0, 0.15);
+  --hover-2: rgba(0, 0, 0, 0.25);
+  --cyan: #22b8cf;
+  --green: #37b679;
+  --red: #da3c3c;
+  --purple: #f81ce5;
+  --blue: #0070f3;
+  --pink: #ff0080;
+  --pink-light: #ff379c;
+  --magenta: #eb367f;
+  --violet: #7928ca;
+  --violet-dark: #4c2889;
+  --accent-0: #fff;
+  --accent-1: #fafafa;
+  --accent-2: #eaeaea;
+  --accent-3: #999999;
+  --accent-4: #888888;
+  --accent-5: #666666;
+  --accent-6: #444444;
+  --accent-7: #333333;
+  --accent-8: #111111;
+  --accent-9: #000;
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafafa;
+}
+
+/* .ant-select-focused .ant-select-selector {
+  border-color: red !important;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2) !important;
+} */
+
+/* .ant-select-selector:hover {
+  border-color: red !important;
+}
+
+.ant-select-item-option.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #eb7272 !important;
+} */
+
+.ant-select-focused .ant-select-selector {
+  border-color: #10b981a6 !important;
+  box-shadow: 0 0 0 2px rgba(0, 255, 0, 0.2) !important;
+}
+
+.ant-select-selector:hover {
+  border-color: #10b981a6 !important;
+}
+
+.ant-select-item-option.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #10b981a6 !important;
+  margin: 0.25rem 0 !important;
+}
+
+.bg-gray-600 {
+  background-color: #6B7280;
+}
+.text-gray-600 {
+  color: #6B7280;
+}
